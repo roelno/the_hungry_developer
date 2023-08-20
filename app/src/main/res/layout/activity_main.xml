@@ -37,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/strawberry_cake" />
+                    android:src="@drawable/starter" />
 
                 <TextView
                     android:id="@+id/text_view_starters"
@@ -70,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/combo" />
+                    android:src="@drawable/main" />
 
 
                 <TextView
