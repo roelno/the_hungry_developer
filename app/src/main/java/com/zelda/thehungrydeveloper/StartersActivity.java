@@ -1,6 +1,5 @@
 package com.zelda.thehungrydeveloper;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -29,8 +28,5 @@ public class StartersActivity extends AppCompatActivity {
 
         ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dishes);
         starterList.setAdapter(dishesAdapter);
-
     }
-
-
 }
